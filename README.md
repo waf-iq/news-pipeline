@@ -46,14 +46,25 @@ To reproduce the results, follow these steps:
 3.  **Run Setup Script:**
     This script downloads necessary NLTK data, spaCy models, and CAMeL Tools databases.
     ```bash
-    bash setup.sh
+    .\setup.bat
+    ```
+
+4. **Run Pipeline:**
+    This main.py file runs the entire pipeline.
+    ```bash
+    python .\main.py
     ```
 
 ## 📊 Evaluation & Results
 * **Language Models:** Perplexity scores are calculated for both languages to evaluate the bigram models on a held-out test set (20% split).
-* **NER:** Precision/Recall analysis of entity extraction.
 * **Morphology:** Discussion on Arabic clitic handling and normalization is included in the final report.
+
+## 📹 Demo Video
+**NLP News Pipeline Demo**
+https://youtu.be/nXEA48sgwrM 
 
 
 ## 📜 License
-MIT
+This project's source code, including all scripts and logic, is licensed under the **MIT License**.
+
+This license applies exclusively to the software implementation. External libraries and tools used, such as CAMeL Tools, spaCy, and NLTK, are governed by their respective licenses.

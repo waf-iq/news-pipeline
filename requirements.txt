@@ -1,0 +1,12 @@
+numpy
+pandas
+nltk
+camel-tools
+spacy
+matplotlib
+seaborn
+arabic-reshaper
+python-bidi
+scikit-learn
+torch
+transformers
