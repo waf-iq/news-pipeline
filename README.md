@@ -54,6 +54,10 @@ To reproduce the results, follow these steps:
     ```bash
     python .\main.py
     ```
+5. **Google Collab Notebook**
+    The same results can be achieved by using this notebook for ease of use 
+    https://colab.research.google.com/drive/1PIvNykB9HF2pGXaYOqZo3rRNnIiKZ7B1?usp=sharing
+
 
 ## 📊 Evaluation & Results
 * **Language Models:** Perplexity scores are calculated for both languages to evaluate the bigram models on a held-out test set (20% split).
